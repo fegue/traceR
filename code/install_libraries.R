@@ -2,7 +2,7 @@
 
 # this will only install the packages that are not already installed on your computer i.e. packages won't get updated
 
-libs <- c("traj")
+libs <- c("trajr")
 
 libsInstalled <- installed.packages()[, 1]
 libsToInstall <- libs[!libs %in% libsInstalled]
